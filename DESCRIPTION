@@ -1,0 +1,14 @@
+Package: totalsend
+Type: Package
+Title: Sending Text Messages
+Version: 0.1.0
+Author: c(
+  person("Andrew", "Collier", email = "andrew@exegetic.biz", role = c("aut", "cre"))
+  )
+Description: A wrapper around the TotalSend API () for sending text messages.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    httr, curl
+RoxygenNote: 6.1.1
